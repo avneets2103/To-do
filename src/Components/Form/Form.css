@@ -1,0 +1,19 @@
+form{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.enterTodo{
+    border-radius: 5px;
+    padding: 1rem;
+    height: 40px;
+    flex-grow: 1;
+}
+
+.submitButton{
+    color: white;
+    border-radius: 5px;
+    padding: 0.4rem;
+}

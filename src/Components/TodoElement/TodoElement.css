@@ -1,0 +1,33 @@
+.pointer{
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(179, 193, 205, 0.258);
+    padding: 0.5rem;
+    gap:1rem;
+    border-radius: 5px;
+    padding-left: 13px;
+}
+
+.pointer img{
+    height: 30px;
+}
+
+.pointer input{
+    border-radius: 5px;
+}
+
+.pointerText{
+    flex-grow: 1;
+    padding: 7px;
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.ordering{
+    order: 2;
+}

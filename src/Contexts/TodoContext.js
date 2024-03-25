@@ -8,7 +8,8 @@ const TodoContext = createContext({
     toggleTodo: (id) => {},
 })
 
-export const TodoContextProvider = TodoContext.Provider;
+const TodoContextProvider = TodoContext.Provider;
+export {TodoContextProvider};
 export const useTodo = () => {
     return useContext(TodoContext);
 } 
